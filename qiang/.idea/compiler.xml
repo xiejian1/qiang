@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="qiang-admin" />
+        <module name="qiang-common" />
+        <module name="qiang-shop" />
+        <module name="qiang-wechart" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="qiang" target="1.8" />
+      <module name="qiang-admin" target="1.8" />
+      <module name="qiang-api" target="1.8" />
+      <module name="qiang-center" target="1.8" />
+      <module name="qiang-cms" target="1.8" />
+      <module name="qiang-common" target="1.8" />
+      <module name="qiang-demo" target="1.8" />
+      <module name="qiang-oss" target="1.8" />
+      <module name="qiang-pay" target="1.8" />
+      <module name="qiang-privilege" target="1.8" />
+      <module name="qiang-shop" target="1.8" />
+      <module name="qiang-wechart" target="1.8" />
+      <module name="qiangcms" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.qiang</groupId>
+  <artifactId>qiang</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <modules>
+    <module>qiang-common</module>
+    <module>qiang-privilege</module>
+    <module>qiang-api</module>
+    <module>qiang-cms</module>
+    <module>qiang-oss</module>
+    <module>qiang-cms</module>
+    <module>qiang-center</module>
+      <module>qiang-pay</module>
+    <module>qiang-wechart</module>
+    <module>qiang-shop</module>
+    <module>qiang-admin</module>
+    <module>qiang-demo</module>
+  </modules>
+  <packaging>pom</packaging>
+
+  <name>qiang</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
+  </properties>
+</project>

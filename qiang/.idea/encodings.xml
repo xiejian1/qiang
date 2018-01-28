@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qiang-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qiang-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qiang-center" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qiang-cms" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qiang-cms" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qiang-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qiang-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qiang-oss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qiang-pay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qiang-privilege" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qiang-shop" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qiang-wechart" charset="UTF-8" />
+  </component>
+</project>

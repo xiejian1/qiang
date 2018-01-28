@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/qiang.iml" filepath="$PROJECT_DIR$/qiang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qiang-admin/qiang-admin.iml" filepath="$PROJECT_DIR$/qiang-admin/qiang-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qiang-api/qiang-api.iml" filepath="$PROJECT_DIR$/qiang-api/qiang-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qiang-center/qiang-center.iml" filepath="$PROJECT_DIR$/qiang-center/qiang-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qiang-cms/qiang-cms.iml" filepath="$PROJECT_DIR$/qiang-cms/qiang-cms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qiang-common/qiang-common.iml" filepath="$PROJECT_DIR$/qiang-common/qiang-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qiang-demo/qiang-demo.iml" filepath="$PROJECT_DIR$/qiang-demo/qiang-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qiang-oss/qiang-oss.iml" filepath="$PROJECT_DIR$/qiang-oss/qiang-oss.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qiang-pay/qiang-pay.iml" filepath="$PROJECT_DIR$/qiang-pay/qiang-pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qiang-privilege/qiang-privilege.iml" filepath="$PROJECT_DIR$/qiang-privilege/qiang-privilege.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qiang-shop/qiang-shop.iml" filepath="$PROJECT_DIR$/qiang-shop/qiang-shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qiang-wechart/qiang-wechart.iml" filepath="$PROJECT_DIR$/qiang-wechart/qiang-wechart.iml" />
+    </modules>
+  </component>
+</project>
