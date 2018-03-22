@@ -201,11 +201,41 @@ public class Paginator {
                 }
             }else {//显示最后剩余的几个页码
                 for(int i=(pageCount-step)+1;i<=pageCount;i++){
-
+                    if(i!=page){
+                        if(url.contains("?")){
+                            pages = pages.concat("<a href=\"" +url+"&"+param+"="+i+"\">"+i+"</a>\n");
+                        }else {
+                            pages = pages.concat("<a href=\""+url+"?"+param+"="+i+"\">"+i+"</a>\n");
+                        }
+                    }else {
+                        pages = pages.concat("<span class=\"current\">"+i+"</span>\n");
+                    }
+                }
+            }
+        }else {//总页数小于等于step，直接显示
+            for(int i=1;i<pageCount;i++){
+                if(i!=page){
+                    if(url.contains("?")){
+                        pages = pages.concat("<a href=\""+url+"&"+param+"="+i+"\">"+i+"</a>\n");
+                    }else {
+                        pages = pages.concat("<a href=\""+url+"?"+param+"="+i+"\">"+i+"</a>\n");
+                    }
+                }else {
+                    pages = pages.concat("<span class=\"current\">"+i+"</span>");
                 }
             }
         }
-
-       return "";
+        //显示下一页
+        if(page<pageCount){
+            if(url.contains("?")){
+                pages = pages.concat("<a class=\"next\" href=\""+url+"&"+param+"="+(page+1)+"\">下一页</a>\n");
+            }else {
+                pages = pages.concat("<a class=\"next\" href=\""+url+"?"+param+"="+(page+1)+"\">下一页</a>\n");
+            }
+        }else{
+            //特定需求可隐藏
+            pages = pages.concat("<a class=\"next\" href=\"javascript:;\" style=\"color:#ccc\">下一页</a>\n");
+        }
+       return pages;
     }
 }
